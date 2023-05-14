@@ -4,10 +4,10 @@ Uma utilizacão importante e atual de aplicações IoT (Internet of Things) est�
 
 Neste cenário, o objetivo desta documentação apresentar a Arquitetura de Referência (RA) para um sistema de saúde eHealth/Healthcare relacionado ao monitoramento remoto de um paciente e a tomada de decisão, podendo essa ter um caráter emergencial com alta confiablidade. Arqutetura foi nomeada como Conf-eHealth.
 
-Uma Arquitetura de Referência define um conjunto de padrões e boas práticas que guiam a construção de arquiteturas futuras dentro do domínio de aplicação. Uma RA também pode ser desenvolvida para facilitar o entendimento e compartilhar valores entre vários produtos, organizações e disciplinas sobre as arquiteturas e direções futuras.!
+Uma Arquitetura de Referência define um conjunto de padrões e boas práticas que guiam a construção de arquiteturas futuras dentro do domínio de aplicação. Uma RA também pode ser desenvolvida para facilitar o entendimento e compartilhar valores entre vários produtos, organizações e disciplinas sobre as arquiteturas e direções futuras.
 
 ![model-conf](https://github.com/Bwenkoi/Conf-eHealth-Documentation/assets/28735848/341647db-067e-4cd2-8fa3-b7b0f4cea24c)
 
-[Arquitetura-eHealth](https://github.com/Bwenkoi/Conf-eHealth-Documentation/assets/28735848/004bfced-b52d-4b68-885e-94482ff590e1)
+![Arquitetura-eHealth](https://github.com/Bwenkoi/Conf-eHealth-Documentation/assets/28735848/004bfced-b52d-4b68-885e-94482ff590e1)
 
 
