@@ -13,7 +13,6 @@ Esta Arquitetura de Referência tem como base a Confiabilidade. Porém, este é 
 Os atributos de qualidade apresentados são derivados das principais preocupações relacionadas a um sistema de monitoramento de saúde, são elas:
 
 * Disponibilidade: O monitoramento de um paciente precisa ser ininterrupto independentemente da condição de saúde momentânea do mesmo. Neste contexto, uma notificação emergencial pode ser feita a qualquer momento através dessas aplicações, assim, a disponibilidade do sistema precisa ser garantida 24 horas por dia e 7 dias por semana.
-
 * Interoperabilidade: Uma vez que diferentes sensores podem estar medindo diferentes atributos da saúde de um paciente e ao mesmo tempo, a interoperabilidade do sistema precisa ser garantida.
 * Eficiência: Os sensores que monitoram os pacientes precisam ser eficientes, para garantir o monitoramento por um grande período de tempo sem necessidade de trocas de dispositivos em função do gasto energético dos dispositivos. 
 * Acurácia: As aplicações web/mobile precisam permitir decisões assertivas sobre a saúde do paciente. Assim, para garantir essa assertividade, a acurácia dos dados precisa ser garantida. Mesmo dados corretos podem levar a decisões erradas, se não forem claros e apresentados de maneira fiel à condição do paciente.
