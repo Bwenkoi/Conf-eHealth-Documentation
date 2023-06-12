@@ -1,3 +1,25 @@
 ## Visão de Contêiner
 
 ![ContainerView](https://github.com/Bwenkoi/Conf-eHealth-Documentation/assets/28735848/3292ff10-8b6c-4ba8-a581-7d954c5fea18)
+
+Mobile Application: Esse contêiner representa uma aplicação mobile para visualização de dados de dispositivos que é opcional nessa arquitetura de referência.
+
+Control Panel: Permite que, através do navegador, seja possível fazer o gerenciamento de dispositivos e visualização de dados de dispositivos.
+
+Web Application: Tem como objetivo entregar a interface gráfica (Control Panel) para o navegador do usuário do sistema.
+
+Keycloak: O Keycloak é uma ferramenta de autenticação e autorização que usa o protocolo \textit{Open ID connect} baseado no OAuth2. Com essa tecnologia é possível realizar autenticação de usuário de varias formas e com varias tecnologias diferentes, como por exemplo, autenticação de dois fatores. 
+
+Kong: O Kong é uma tecnologia de API Gateway e será responsável por distribuir as requisições entre os serviços Data-API e Device-manager conforme as suas funcionalidades.
+
+Data-API: Responsável por consultar os dados na nuvem e disponibilizá-lo para a camada de visualização ou aplicações externas.
+
+Business Manager: Responsável pelas regras de negócio individuais do paciente, por exemplo, o treshold para o disparo de notificações para cuidadores externos.
+
+Device Manager: Responsável por gerenciar, configurar e atuar sobre dispositivos instalados no sistema.
+
+Kafka/Broker: Responsável por entregar as mensagens, eventos, dados e comandos em todo o sistema via publish/subscribe.  
+
+Device Auth: Parte responsável por realizar a autenticação dos dispositivos.
+
+Dentro do diagrama, é possível notar dois micro-serviços que possuem o prefixo "ot-agent" esses serviços serão responsáveis por receber os dados e atuar sobre um dispositivo no protocolo especifico do mesmo. No caso do diagrama foi usado dois protocolos como exemplo o HTTP e o MQTT. Esses microsserviços também realizam a função de converter os dados recebidos em um formato padronizado pela aplicação e converter as atuações padronizadas do sistema no formato especifico de cada dispositivo.
