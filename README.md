@@ -8,7 +8,7 @@ Uma Arquitetura de Referência define um conjunto de padrões e boas práticas q
 
 Esta Arquitetura de Referência tem como base a Confiabilidade. Porém, este é um termo amplo e que pode ser interpretado de diferentes maneiras. Neste caso a Confiabilidade será considerada como um conjunto de seis atributos, como pode ser visto na Figura a seguir.
 
-![model-conf](https://github.com/Bwenkoi/Conf-eHealth-Documentation/assets/28735848/341647db-067e-4cd2-8fa3-b7b0f4cea24c)
+![Confiabilidade](https://github.com/Bwenkoi/Conf-eHealth-Documentation/assets/28735848/ac62af11-21ae-4419-b247-f351994c1649)
 
 Os atributos de qualidade apresentados são derivados das principais preocupações relacionadas a um sistema de monitoramento de saúde, são elas:
 
@@ -21,6 +21,6 @@ Os atributos de qualidade apresentados são derivados das principais preocupaç�
 
 A representação visual dos requisitos de qualidade interagindo com a aplicação pode ser vista na Figura a seguir.
 
-![Arquitetura-eHealth](https://github.com/Bwenkoi/Conf-eHealth-Documentation/assets/28735848/004bfced-b52d-4b68-885e-94482ff590e1)
+![Interação Atributos](https://github.com/Bwenkoi/Conf-eHealth-Documentation/assets/28735848/7d5ee788-e89a-4bcd-8614-15d07e2ad446)
 
 
