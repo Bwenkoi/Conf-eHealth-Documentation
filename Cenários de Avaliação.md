@@ -40,13 +40,13 @@ O terceiro cenário parte de uma possível falha em função da falta de bateria
 
 ### Cenário 04 - Acurácia
 
-O quarto cenário apresenta uma situação ocorrida a partir da tentativa de consulta aos dados do paciente monitorado por um cuidador externo.
+O quarto cenário apresenta a tentativa de consulta aos dados do paciente monitorado por um cuidador externo autenticado.
 
 * Estímulo: Setores do sistema que interagem e armazenam os dados coletados.    
 * Fonte: Tentativa de consulta aos dados do paciente monitorado.
 * Artefato: Componentes de consulta e armazenamento de dados.
 * Ambiente: Sistema em seu funcionamento normal.
-* Resposta: Dados apresentados para o cuidador externo, de maneira precisa.
+* Resposta: Dados apresentados para o cuidador externo, de maneira precisa, de acordo com a coleta realizada.
 
 ### Cenário 05 - Segurança
 
