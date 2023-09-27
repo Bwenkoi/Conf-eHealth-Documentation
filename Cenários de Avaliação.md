@@ -60,10 +60,10 @@ O quinto cenário adotado se dá pela tentativa de acesso aos dados por um usuá
 
 ### Cenário 06 - Latência
 
-O sexto cenário considera um contexto onde um sinal de alerta é emitido quando um valor considerado perigoso for encontrado.
+O sexto cenário leva em consideração um contexto onde um sinal de alerta é emitido quando um valor considerado perigoso for encontrado.
 
 * Estímulo: Sinal de alerta emitido quando determinado dado ultrapassa o threshold definido.
-* Fonte: Setores do sistema que atuam sobre as informações coletadas em tempo real.
-* Artefato: Setores do sistema que se comunicam para transferência de dados.
+* Fonte: Setores do sistema que atuam sobre os dados coletados em tempo real.
+* Artefato: Setores do sistema que se comunicam para transferência de dados coletados em tempo real.
 * Ambiente: Sistema em seu funcionamento normal.
 * Resposta: Tempo de resposta do sistema em relação aos estímulos.
