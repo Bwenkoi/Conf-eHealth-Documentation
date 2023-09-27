@@ -50,7 +50,7 @@ O quarto cenário apresenta uma situação ocorrida a partir da tentativa de con
 
 ### Cenário 05 - Segurança
 
-O quinto cenário adotado se dá pela tentativa de acesso aos dados por um usuário ou parte do sistema sem autorização.
+O quinto cenário adotado se baseia na tentativa de acesso aos dados por um usuário ou parte do sistema sem autorização.
 
 * Estímulo: Tentativa de acesso aos dados por um usuário ou sistema sem autorização.
 * Fonte: Atores, partes do sistemas ou sistemas externos que tentam acessar informações sem autorização.
