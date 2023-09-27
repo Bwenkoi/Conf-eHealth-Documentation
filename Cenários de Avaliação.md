@@ -24,9 +24,9 @@ O segundo cenário está ligado à uma requisição de transferência de dados e
 
 * Estímulo: Requisição de transferência de dados entre dispositivos diversos e o sistema de monitoramento.
 * Fonte: Comunicação entre diferentes partes que compõem o sistema.
-* Artefato: Componentes do sistema que desejam interoperar.
+* Artefato: Componentes do sistema que preciasam interoperar.
 * Ambiente: Sistema em seu funcionamento normal.
-* Resposta: Uma requisição de transmissão de informação é devidamente aceita independentemente do protocolo utilizado.
+* Resposta: Uma requisição de transmissão de informação é devidamente aceita ou recusada independentemente do protocolo utilizado.
 
 ### Cenário 03 - Eficiência
 
