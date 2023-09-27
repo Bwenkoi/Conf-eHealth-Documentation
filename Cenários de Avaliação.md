@@ -22,11 +22,11 @@ O primeiro cenário apresenta uma possível falha, queda ou atraso extenso na re
 
 O segundo cenário está ligado à uma requisição de transferência de dados entre partes do sistema que possuem autorização para transferência.
 
-* Estímulo: Requisição de transferência de dados entre dispositivos.
+* Estímulo: Requisição de transferência de dados entre dispositivos diversos e o sistema de monitoramento.
 * Fonte: Comunicação entre diferentes partes que compõem o sistema.
 * Artefato: Componentes do sistema que desejam interoperar.
 * Ambiente: Sistema em seu funcionamento normal.
-* Resposta: Uma requisição de transmissão de informação é devidamente aceita ou recusada.
+* Resposta: Uma requisição de transmissão de informação é devidamente aceita independentemente do protocolo utilizado.
 
 ### Cenário 03 - Eficiência
 
@@ -46,7 +46,7 @@ O quarto cenário apresenta uma situação ocorrida a partir da tentativa de con
 * Fonte: Tentativa de consulta aos dados do paciente monitorado.
 * Artefato: Componentes de consulta e armazenamento de dados.
 * Ambiente: Sistema em seu funcionamento normal.
-* Resposta: Quantidade de dados perdidos em um período de tempo determinado.
+* Resposta: Dados apresentados para o cuidador externo, de maneira precisa.
 
 ### Cenário 05 - Segurança
 
@@ -60,10 +60,10 @@ O quinto cenário adotado se dá pela tentativa de acesso aos dados por um usuá
 
 ### Cenário 06 - Latência
 
-O sexto cenário parte da tentativa de consulta aos dados do paciente monitorado em tempo real ou sinal de alerta emitido caso um valor perigoso for encontrado.
+O sexto cenário considera um contexto onde um sinal de alerta é emitido quando um valor considerado perigoso for encontrado.
 
-* Estímulo: Tentativa de consulta aos dados do paciente monitorado em tempo real ou sinal de alerta emitido caso um valor perigoso for encontrado.
-* Fonte: Setores do sistema que transmitem as informações coletadas em tempo real.
+* Estímulo: Sinal de alerta emitido quando determinado dado ultrapassa o threshold definido.
+* Fonte: Setores do sistema que atuam sobre as informações coletadas em tempo real.
 * Artefato: Setores do sistema que se comunicam para transferência de dados.
 * Ambiente: Sistema em seu funcionamento normal.
 * Resposta: Tempo de resposta do sistema em relação aos estímulos.
