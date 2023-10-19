@@ -10,7 +10,7 @@ Os cenários de avaliação seguem o modelo detalhado a seguir:
 
 ### Cenário 01 - Disponibilidade
 
-O primeiro cenário apresenta uma possível falha, queda ou atraso extenso na recuperação dos dados de monitoramento, com objetivo de avaliar se o sistema é capaz de garantir a disponibilidade das funções essenciais.
+O primeiro cenário apresenta uma possível falha, queda ou atraso extenso na recuperação dos dados de monitoramento, com objetivo de entender se o sistema é capaz de garantir a disponibilidade das funções essenciais.
 
 * Estímulo: Falha, queda ou atraso extenso no compartilhamento dos dados de monitoramento.
 * Fonte: Dispositivos físicos de monitoramento e componentes de software relacionados.
@@ -28,32 +28,32 @@ O segundo cenário está ligado à uma requisição de transferência de dados e
 * Ambiente: Sistema em seu funcionamento normal.
 * Resposta: Uma requisição de transmissão de informação é devidamente aceita ou recusada independentemente do protocolo utilizado.
 
-### Cenário 03 - Eficiência
+### Cenário 03 - Eficiência Energética
 
-O terceiro cenário parte de uma possível falha em função da falta de bateria em um ou mais dispositivos que realizam o monitoramento de um paciente.
+O terceiro cenário parte de uma avaliação de possíveis falhas em função da falta de bateria em um ou mais dispositivos que realizam o monitoramento de um paciente.
 
 * Estímulo: Avaliação de vida útil dos dispositivos para implantação.
-* Fonte: Entidade (cuidadores externos ou admin), dispositivos físicos de monitoramento.
+* Fonte: Entidades (cuidadores externos ou administrador do sistema), dispositivos físicos de monitoramento.
 * Artefato: Ambiente de monitoramento do paciente.
 * Ambiente: Sistema em seu funcionamento normal.
-* Resposta: Capacidade de uso de dispositivos e protocolos eficientes energéticamente.
+* Resposta: Capacidade de uso de dispositivos e protocolos eficientes energeticamente.
 
 ### Cenário 04 - Acurácia
 
 O quarto cenário apresenta a tentativa de consulta aos dados do paciente monitorado por um cuidador externo autenticado.
 
-* Estímulo: Setores do sistema que interagem e armazenam os dados coletados.
-* Fonte: Tentativa de consulta aos dados do paciente monitorado.
+* Estímulo: Consulta aos dados do paciente monitorado.
+* Fonte: Entidade (cuidadores externos) e setores do sistema que interagem e armazenam os dados coletados.
 * Artefato: Componentes de consulta e armazenamento de dados.
 * Ambiente: Sistema em seu funcionamento normal.
 * Resposta: Dados apresentados para o cuidador externo, de maneira precisa, de acordo com a coleta realizada.
 
 ### Cenário 05 - Segurança
 
-O quinto cenário adotado se baseia na tentativa de acesso aos dados por um usuário ou parte do sistema sem autorização.
+O quinto cenário adotado se baseia na tentativa de acesso aos dados por um usuário, sistema ou parte do sistema sem autorização.
 
 * Estímulo: Tentativa de acesso aos dados por um usuário ou sistema sem autorização.
-* Fonte: Atores, partes do sistemas ou sistemas externos que tentam acessar informações.
+* Fonte: Entidades, partes do sistemas ou sistemas externos que tentam acessar informações.
 * Artefato: Setores do sistema que coletam, transmitem ou armazenam dados.
 * Ambiente: Sistema em seu funcionamento normal.
 * Resposta: Impedimento de acesso aos dados solicitados pela entidade sem autorização. Impedimento da alteração de dados.
@@ -62,7 +62,7 @@ O quinto cenário adotado se baseia na tentativa de acesso aos dados por um usu�
 
 O sexto cenário leva em consideração um contexto onde um sinal de alerta é emitido quando um valor considerado perigoso for encontrado.
 
-* Estímulo: Sinal de alerta emitido quando determinado dado ultrapassa o threshold definido.
+* Estímulo: Sinal de alerta emitido quando determinado um determinado dado ultrapassa o limite definido.
 * Fonte: Setores do sistema que atuam sobre os dados coletados em tempo real.
 * Artefato: Setores do sistema que se comunicam para transferência de dados coletados.
 * Ambiente: Sistema em seu funcionamento normal.
